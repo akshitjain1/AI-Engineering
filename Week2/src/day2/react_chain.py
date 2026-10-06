@@ -117,7 +117,7 @@ def run_agent(question):
             sleep(5)  # Stay under Groq rate limits
 
         elif "Final Answer:" in answer:
-            # Agent has finished
+            # Agent has finished and provided a final answer
             break
 
         else:
