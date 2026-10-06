@@ -1,0 +1,7 @@
+groq
+python-dotenv
+pydantic
+pypdf2
+docx2txt
+docx
+pypdf

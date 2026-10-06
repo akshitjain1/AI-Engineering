@@ -1,0 +1,25 @@
+[project]
+name = "day1"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+authors = [
+    { name = "Akshit Jain", email = "akshitjainonly1@gmail.com" }
+]
+requires-python = ">=3.13"
+dependencies = [
+    "docx>=0.2.4",
+    "docx2txt>=0.9",
+    "groq>=1.7.0",
+    "pydantic>=2.13.5",
+    "pypdf>=6.19.0",
+    "pypdf2>=3.0.1",
+    "python-dotenv>=1.2.4",
+]
+
+[project.scripts]
+day1 = "day1:main"
+
+[build-system]
+requires = ["uv_build>=0.12.23,<0.13.0"]
+build-backend = "uv_build"
